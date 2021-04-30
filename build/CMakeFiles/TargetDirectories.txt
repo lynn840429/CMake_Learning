@@ -1,0 +1,3 @@
+/home/runner/CMakelearning/build/CMakeFiles/rebuild_cache.dir
+/home/runner/CMakelearning/build/CMakeFiles/test_sqrt.dir
+/home/runner/CMakelearning/build/CMakeFiles/edit_cache.dir

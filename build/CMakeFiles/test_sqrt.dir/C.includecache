@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/runner/CMakelearning/include/b.h
+math.h
+-
+
+/home/runner/CMakelearning/src/b.c
+../include/b.h
+/home/runner/CMakelearning/include/b.h
+
+/home/runner/CMakelearning/src/main.c
+../include/b.h
+/home/runner/CMakelearning/include/b.h
+stdio.h
+-
+
